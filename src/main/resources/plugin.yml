@@ -1,0 +1,11 @@
+name: vReboot
+version: '${project.version}'
+main: lol.vifez.vreboot.vReboot
+commands:
+  reboot:
+    description: starts the reboot
+    usage: /reboot <countdown>
+permissions:
+  vreboot.reboot:
+    description: permission to start a reboot
+    default: op
